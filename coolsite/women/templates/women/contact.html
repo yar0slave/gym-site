@@ -1,0 +1,15 @@
+{% extends 'women/base.html' %}
+
+{% block content %}
+<h1>Обратная связь</h1>
+
+<form method="post">
+    {{ form.as_p }}
+    <p><button type="submit">Отправить</button></p>
+    <p>Прянишникова 2А, 8 800 555 35 35, фывфыв@майл.ру, График работы:
+Пн. — Чт.: 10:30 - 18:00
+Пт.: 10:30 - 17:00
+Сб. — Вс.: выходные</p>
+</form>
+
+{% endblock %}
